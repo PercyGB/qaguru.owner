@@ -5,7 +5,7 @@ For web config local mode
 ```
 For web config remote mode
 ```bash
-./gradle clean test --tests WebConfigTests -Dconf=remote
+./gradlew clean test --tests WebConfigTests -Dconf=remote
 ```
 
 For api config using system properties
