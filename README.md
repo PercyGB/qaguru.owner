@@ -3,7 +3,7 @@ For web config local mode
 ```bash
 ./gradlew clean test --tests WebConfigTests -Dconf=local
 ```
-For web config remote
+For web config remote mode
 ```bash
 ./gradle clean test --tests WebConfigTests -Dconf=remote
 ```
