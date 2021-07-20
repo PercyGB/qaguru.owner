@@ -1,19 +1,19 @@
 ### How to run with terminal commands
 For web config
 ```bash
-gradle clean -Dconf=local test --tests "tests.WebConfigTests"
+./gradlew clean test --tests WebConfigTests -Dconf=local
 ```
 or
 ```bash
-gradle clean -Dconf=remote test --tests "tests.WebConfigTests"
+gradle clean test --tests WebConfigTests -Dconf=remote
 ```
 
 For api config using system properties
 ```bash
-gradlew clean -Dbase.url=localhost -Dtoken=token23 test --tests "tests.ApiConfigTests"
+./gradlew clean test --tests ApiConfigTests -DbaseUrl=https://mail.com -Dtoken=123 
 ```
 
 For api config using file
 ```bash
-gradlew clean  test --tests "tests.ApiConfigTests"
+./gradlew clean test --tests ApiConfigTests
 ```
