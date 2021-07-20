@@ -1,4 +1,4 @@
-### How to run with terminal commands
+### How to run from Terminal
 For web config local mode
 ```bash
 ./gradlew clean test --tests WebConfigTests -Dconf=local
